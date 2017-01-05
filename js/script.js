@@ -1,3 +1,5 @@
+
+
 $(document).ready(function() {
   // create a 16*16 grid of divs
   for(x = 0; x < 16; x++) {
@@ -7,3 +9,8 @@ $(document).ready(function() {
   }
 
 });
+
+$(document).on("mouseover", ".grid-block", function() {
+  $(this).css("background-color", "black");
+
+})
