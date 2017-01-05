@@ -18,6 +18,10 @@ body {
 .hover {
    background-color: #cacaca;
 }
+
+#clear :active {
+  background-color: #0a0a0a;
+}
 #grid-container {
   position: absolute;
   left: 300px;
@@ -41,9 +45,7 @@ body {
 }
 
 .grid-block {
-  display:inline-block;;
-  height:6.25%;
-  width:6.25%;
+  display:inline-block;
   padding:0px;
   margin: 0px;
 }
